@@ -1,0 +1,30 @@
+﻿Build started 1/29/2020 10:56:30 PM.
+     1>Project "F:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-C-OpenGL\Primitive_Drawing\Primitive_Drawing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Renderer.cpp shader.cpp snake.cpp
+         snake.cpp
+         shader.cpp
+         Renderer.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\gl\glfw3.h(98) : see previous definition of 'APIENTRY'
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(105): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(106): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(108): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(119): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(120): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(149): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-c-opengl\primitive_drawing\renderer.cpp(150): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-C-OpenGL\Debug\Primitive_Drawing.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-C-OpenGL\Debug\Primitive_Drawing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-C-OpenGL\Debug\Primitive_Drawing.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Renderer.obj
+         Debug\shader.obj
+         Debug\snake.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Primitive_Drawing.vcxproj -> F:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-C-OpenGL\Debug\Primitive_Drawing.exe
+     1>Done Building Project "F:\kolya\sana3.term2\graphics\graphics_proj\form_oop\9\catch-me-C-OpenGL\Primitive_Drawing\Primitive_Drawing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.43
